@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UP 6.1 Console Two-Dimensio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UP 6.2 Console", "UP 6.2 Console\UP 6.2 Console.csproj", "{A47ABB73-D0D2-408B-A59E-3A41BA32ABFB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UP 6.3 Console", "UP 6.3 Console\UP 6.3 Console.csproj", "{982D42E8-A202-48BF-A26D-E57EC11878FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A47ABB73-D0D2-408B-A59E-3A41BA32ABFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A47ABB73-D0D2-408B-A59E-3A41BA32ABFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A47ABB73-D0D2-408B-A59E-3A41BA32ABFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{982D42E8-A202-48BF-A26D-E57EC11878FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{982D42E8-A202-48BF-A26D-E57EC11878FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{982D42E8-A202-48BF-A26D-E57EC11878FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{982D42E8-A202-48BF-A26D-E57EC11878FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
