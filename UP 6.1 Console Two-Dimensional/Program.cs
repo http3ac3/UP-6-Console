@@ -8,7 +8,7 @@ namespace UP_6._1_Console_Two_Dimensional
 {
     internal class Program
     {
-        static void OutArray(double[,] arr)
+        static void OutArray(int[,] arr)
         {
             for (int i = 0; i < arr.GetLength(0); i++)
             {
@@ -37,13 +37,13 @@ namespace UP_6._1_Console_Two_Dimensional
                     "Введите число столбцов массива: ");
             }
 
-            double[,] array = new double[N, M];
+            int[,] array = new int[N, M];
             for (int i = 0; i < N; i++)
             {
                 for (int j = 0; j < M; j++)
                 {
                     Console.Write($"Введите значение элемента array[{i}, {j}]: ");
-                    while (!double.TryParse(Console.ReadLine(), out array[i, j]))
+                    while (!int.TryParse(Console.ReadLine(), out array[i, j]))
                     {
                         Console.Write("Были введены неверные данные! " +
                             $"Введите значение элемента array[{i}, {j}]: ");

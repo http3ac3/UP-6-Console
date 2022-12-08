@@ -8,7 +8,7 @@ namespace UP_6._1_Console
 {
     internal class Program
     {
-        static void OutArray(double[] arr)
+        static void OutArray(int[] arr)
         {
             for (int i = 0; i < arr.Length; i++)
                 Console.Write(arr[i] + " ");
@@ -22,13 +22,13 @@ namespace UP_6._1_Console
                 Console.Write("Были введены неверные данные! Число элементов массива должно быть > 0! " +
                     "Введите число элементов массива: ");
             }
-            double[] array = new double[N];
+            int[] array = new int[N];
 
             Console.WriteLine("Заполните массив: ");
             for (int i = 0; i < N; i++)
             {
                 Console.Write($"Введите значение элемента array[{i}]: ");
-                while (!double.TryParse(Console.ReadLine(), out array[i]))
+                while (!int.TryParse(Console.ReadLine(), out array[i]))
                 {
                     Console.Write("Были введены неверные данные! " +
                         $"Введите значение элемента array[{i}]: ");
